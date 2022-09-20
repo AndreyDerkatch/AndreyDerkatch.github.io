@@ -1,1 +1,87 @@
+#body{
+    margin:0;
+}
 
+#header{
+    width: 100%;
+    background-color: rgb(180, 180, 180);
+    padding: 10px 0px 10px 0px;
+    height: 160px;
+}
+
+#Logoh1{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#logo{
+    
+    float: left;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+#h1{
+    background-color: rgb(180, 180, 180);
+    padding: 40px;
+    color: #000000;
+}
+
+#nav{
+    max-width: 960px;
+    background-color: rgb(180, 180, 180);
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#cont1{
+    margin-left: 0%;
+    width: 120px;
+    margin-right: 300px;
+    font-family: 'Georgia', arial, serif;
+
+}
+#cont2{
+    width: 120px;
+    margin-right: 300px;
+    font-family: 'Georgia', arial, serif;
+}
+
+#cont3{
+    width: 100px;
+    font-family: 'Georgia', arial, serif;
+}
+
+.content{
+    max-width: 960px;
+    background-color: rgb(180, 180, 180);
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.a{
+    background-color: rgb(230, 230, 230);
+}
+
+.b{
+    background-color: rgb(200, 200, 200);
+}
+
+#footer{
+    width: 100%;
+    background-color: rgb(200, 200, 200);
+    height: 70px;
+    padding: 30px 0px 30px 0px;
+    margin-top: 20px;
+}
+
+#sozd{
+    margin: 30px 0px 0px 60px;
+}
