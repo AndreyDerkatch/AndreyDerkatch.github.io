@@ -1,0 +1,179 @@
+@media (max-width: 800px) {
+
+    #body {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    #body header {
+        background-color: rgb(180, 180, 180);
+        height: 10vh;
+        flex: 1;
+        padding: 2vw;
+        order: 1;
+    }
+
+    #logo {
+        float: left;
+        height: 10vh;
+        width: 20vw;
+    }
+
+    #h1 {
+        padding-top: 3vh;
+        margin-left: 50vw;
+        background-color: rgb(180, 180, 180);
+        color: #000000;
+        font-size: calc(3vh*1.2);
+        padding-bottom: calc(2vh*1.1);
+    }
+
+    .nav {
+        font-size: calc(2vh*1.2);
+    }
+
+    #body nav {
+        background-color: rgb(180, 180, 180);
+        margin: 2vh 0vh 0vh 0vh;
+        padding: 2vw;
+        order: 2;
+        flex: 1;
+        height: 10vh;
+    }
+
+    #content_1 {
+        background-color: rgb(180, 180, 180);
+        margin: 2vh 0vh 0vh 0vh;
+        padding: 2vw;
+        order: 3;
+        flex: 1;
+        padding-left: 3vw;
+    }
+
+    #content_2 {
+        background-color: rgb(180, 180, 180);
+        margin: 2vh 0vh 0vh 0vh;
+        padding: 2vw;
+        order: 5;
+        flex: 1;
+    }
+
+    #body table, th, td {
+        border: 1px solid black;
+    }
+    
+    .a{
+        background-color: rgb(230,230,230);
+    }
+    
+    .b{
+        background-color: rgb(180, 180, 180);
+    }
+
+    #content_3 {
+        background-color: rgb(180, 180, 180);
+        margin: 2vh 0vh 0vh 0vh;
+        padding: 2vw;
+        order: 4;
+        flex: 1;
+    }
+
+    #body footer {
+        background-color: rgb(180, 180, 180);
+        margin-top: 2vh;
+        padding: 2vw;
+        order: 6;
+        flex: 1;
+    }
+}
+
+@media (min-width: 800px) {
+    #body{
+        margin:0;
+    }
+    
+    #header{
+        width: 100%;
+        background-color: rgb(180, 180, 180);
+        padding: 10px 0px 10px 0px;
+        height: 160px;
+    }
+    
+    #Logoh1{
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    
+    #logo{
+        
+        float: left;
+        margin: 5px;
+        width: 100px;
+        height: 100px;
+    }
+    
+    #h1{
+        background-color: rgb(180, 180, 180);
+        padding: 40px;
+        color: #000000;
+    }
+    
+    #nav{
+        max-width: 960px;
+        background-color: rgb(180, 180, 180);
+        margin: 0 auto;
+        margin-top: 20px;
+        padding: 10px;
+    }
+    
+    #cont1{
+        margin-left: 0%;
+        width: 120px;
+        margin-right: 300px;
+        font-family: 'Georgia', arial, serif;
+    
+    }
+    #cont2{
+        width: 120px;
+        margin-right: 300px;
+        font-family: 'Georgia', arial, serif;
+    }
+    
+    #cont3{
+        width: 100px;
+        font-family: 'Georgia', arial, serif;
+    }
+    
+    .content{
+        max-width: 960px;
+        background-color: rgb(180, 180, 180);
+        margin: 0 auto;
+        margin-top: 20px;
+        padding: 10px;
+    }
+    
+    table, th, td {
+        border: 1px solid black;
+    }
+    
+    .a{
+        background-color: rgb(230, 230, 230);
+    }
+    
+    .b{
+        background-color: rgb(200, 200, 200);
+    }
+    
+    #footer{
+        width: 100%;
+        background-color: rgb(200, 200, 200);
+        height: 70px;
+        padding: 30px 0px 30px 0px;
+        margin-top: 20px;
+    }
+    
+    #sozd{
+        margin: 30px 0px 0px 60px;
+    }
+}
