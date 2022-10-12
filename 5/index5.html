@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Калькулятор</title>
+    <meta charset="utf-8" />
+    <script src="script5.js" defer></script>
+    <style>
+      body {
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+      }
+      .h {
+        text-align: center;
+      }
+      .pol {
+        font-size: large;
+        text-align: center;
+      }
+      #ras {
+        font-size: large;
+        display: flex;
+        justify-content: center;
+      }
+      #my-button {
+        background-color: rgb(241, 145, 34);
+        border-radius: 15px;
+        font-size: large;
+        color: white;
+      }
+      #result {
+        font-size: large;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 class="h">Калькулятор стоимости товара</h1>
+    <form>
+      <p class="pol">Введите количество: <input id="count" type="text" /></p>
+      <p class="pol">Введите цену: <input id="price" type="text" /></p>
+      <div id="ras">
+        <button type="button" id="my-button">Вычислить</button>
+      </div>
+    </form>
+    <div class="pol" id="result"></div>
+  </body>
+</html>
