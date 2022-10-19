@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Калькулятор</title>
+    <meta charset="utf-8">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="calc1">
+    <h1 class="h">Калькулятор стоимости №1</h1>
+    <form>
+      <p >Введите количество товара: <input id="kol1" type="text" class="input"></p>
+      <p >Введите цену товара: <input id="price" type="text" class="input"></p>
+      <div id="ras">
+        <button type="button" id="my-button">Результат</button>
+      </div>
+    </form>
+    <div id="result1"></div>
+    </div>  
+
+    <div class="calc2">
+    <h1 class="h">Калькулятор стоимости №2</h1>
+    <form>
+      <p>Введите количество товара: <input id="kol" type="text" class="input"></p>
+      <div>
+        <select name="select" class="select">
+          <option value="1">AirPods</option>
+          <option value="2">Iphone</option>
+          <option value="3">Ipad</option>
+        </select>
+      </div>
+
+      <div id="radio">
+        <label><input type="radio" name="radio" value="1">256Gb</label>
+        <label><input type="radio" name="radio" value="2">512Gb</label>
+      </div>
+
+      <div id="boxs">
+        <label><input type="checkbox" name="prop" value="1"> Поддержка SIM</label>
+      </div>
+    </form>
+    <div id="result"></div>
+    </div>
+
+
+  </body>
+</html>
