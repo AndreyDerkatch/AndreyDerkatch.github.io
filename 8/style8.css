@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  form {
+    margin-top: 20px;
+    text-align: center;
+  }
+  form input,
+  textarea,
+  select,
+  button {
+    margin-top: 5px;
+  }
+  .popup-container {
+    width: 100%;
+    min-height: 100%;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+  }
+  .popup-content {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    max-width: 600px;
+    width: auto;
+    margin: 15px auto;
+    height: auto;
+    padding: 20px;
+    padding-bottom: 40px;
+    background-color: orange;
+    border-radius: 25px;
+  }
+  .but1 {
+    font-size: medium;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+  }
+  .but2{
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: medium;
+  }
+  .but3{
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: medium;
+  }
+  .inp{
+    font-size: medium;
+  }
+ 
