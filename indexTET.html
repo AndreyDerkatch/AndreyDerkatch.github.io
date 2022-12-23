@@ -1,1 +1,130 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Задание 1</title>
+    </head>
+    <body>
+<ol>
+    <li><a href="http://example.com">Главная страница</a></li>
+    <li><a href="https://example.com">Главная страница в протоколе https</a></li>
+    <li><a href="FTP://example.com"> FTP без авторизации</a></li>
+    <li><a href="FTP://admin:1234@example.com">FTP с авторизацией</a></li>
+    <li><a href="https://ru.wikipedia.org/wiki/Гагарин,_Юрий_Алексеевич#Полёт_в_космос">Фрагмент страницы википедии</a></li>
+    <li><a href="#forma">Ссылку на фрагмент текущей страницы</a></li>
+    <li><a href="https://example.com/?utm_medium=cpc&utm_source=yandex">Ссылка с двумя параметрами</a></li>
+    <li>
+        <ul>
+        <li><a href="https://www.microsoft.com/ru-ru" title="Официальный сайт microsoft">Официальный сайт microsoft</a></li>
+        <li><a href="https://www.microsoft.com/ru-ru/microsoft-365?rtc=1" title="Страница для ознакомления с microsoft 365" >Страница для ознакомления с microsoft 365</a></li>
+        <li><a href="https://www.microsoft.com/ru-ru/microsoft-teams/group-chat-software?rtc=1" title="Страница для ознакомления с microsoft teams">Страница для ознакомления с microsoft teams</a></li>
+        </ul>
+    </li>
+    <li><a>http://example.com - cсылка без href</a></li>
+    <li><a href="">Ссылка с путсым href</a></li>
+    <li><a href="http://example.com" rel="nofollow">Ссылка, по которой запрещен переход поисковикам</a></li>
+    <li><!--noindex--> <a href="http://example.com">Сcылка без индексации</a> <!--/noindex--> </li>
+    <li><p> В настоящее время windows 11 можно установить с официального сайта <a href="https://support.microsoft.com/ru-ru/windows">Microsoft</a></p> </li>
+    <li><a href="https://booking.com" target="_blank"><img src="https://s1.1zoom.ru/big3/984/Canada_Parks_Lake_Mountains_Forests_Scenery_Rocky_567540_3840x2400.jpg" alt="Отдых в горах" width="640" height="480" title="Отдых в горах"></a></li>    
+    <li>
+        <img src = "https://autogear.ru/misc/i/gallery/98402/2640804.jpg" width="250" height="140" usemap = "#figuri" alt="Зелёный круг и красный квадрат">
+        <map name = "figuri" >
+            <area shape = "rect" coords = "126,26,213,115" href = "https://ru.wikipedia.org/wiki/Квадрат" alt = "Красный квадрат" >
+            <area shape = "circle" coords = "62,70,42" href = "https://ru.wikipedia.org/wiki/Круг" alt = "Зелёный круг." >
+        </map>
+    </li>
+    <li><a href="index.html">Относительная ссылка на страницу в текущем каталоге</a></li>
+    <li><a href="/about/index.html">Относительная ссылка на страницу в каталоге about</a></li>
+    <li><a href="../index.html"> Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
+    <li><a href="../../index.html"> Относительная ссылка на страницу в каталоге двумя уровнями выше</a></li>
+    <li><a href="/"> Сокращенная ссылка на главную страницу</a></li>
+    <li><a href="/about"> Сокращенная внутренняя ссылка</a></li>
+</ol>
+<br>
+    <form id = "forma">
+        <label>
+                Имя: 
+                <input name="name_polz" maxlength="25" size="25" value="Введите ваше имя">
+        </label>
+        <br>
+        <br>
 
+        <label>
+                email: 
+                <input name="email_polz" type="email" maxlength="128" size="40" placeholder="Введите ваш email">
+        </label>
+        <br>
+        <br>
+
+        <label>
+                Дата рождения: 
+                <input name="data_polz" type="date" value="2022-01-01">
+        </label>
+        <br>
+        <br>
+
+        <label>
+                Пол:
+                <input name="pol" type="radio" checked="checked"> 
+                Мужской
+        </label>
+
+        <label>
+                <input name="pol" type="radio"> 
+                Женский
+        </label>
+        <br>
+        <br>
+
+        Количество конечностей:
+        <label>
+            <input name="kol_kon" type="radio" checked> 
+            4
+        </label>
+        
+        <label>
+            <input name="kol_kon" type="radio"> 
+            6
+        </label>
+
+        <label>
+            <input name="kol_kon" type="radio"> 
+            8
+        </label>
+        <br>
+        <br>
+
+        <label>
+            Суперспособности:
+            <br>
+            <select name="super" multiple="multiple" size="3">
+                <option value="1">Бессмертие</option>
+                <option value="2">Прохождение сквозь стены</option>
+                <option value="3">Левитация</option>
+            </select>
+        </label>
+        <br>
+        <br>
+
+        <label>
+            Поле для биографии:
+            <br>
+            <textarea name="bio" cols="30" rows="20" maxlength="625">Ваша биография</textarea>
+        </label>
+        <br>
+        <br>
+
+        <label>
+            С контрактом ознакомлен(а):
+            <input type="checkbox">
+        </label>
+        <br>
+        <br>
+        
+        <Label>
+            <input type="submit" value="Отправить">
+        </Label>
+        
+    </form>
+</body>
+</html>
