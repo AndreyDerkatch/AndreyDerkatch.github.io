@@ -64,7 +64,53 @@
 
     <button id="overlay_btn">Заполнить форму</button><!--Кнопка, которая вызывает оверлей с формой-->
   
-  <!--МОБИЛЬНОЕ МЕНЮ-->
+   <div class="mobile-menu" style="position: fixed; z-index: 15; bottom: 0;"> <!--Мобильное меню-->
+      <div class="click-menu-mobile" id="click-menu-mobile">
+        <div id="sup-drupal-mobile" class="poz-mobile" style="color:rgb(254, 59, 29)">
+          ПОДДЕРЖКА DRUPAL
+        </div>
+        <div id="Admin-mobile" class="poz-mobile">
+            АДМИНИСТРИРОВАНИЕ <img src="img/angle-small-down.svg" alt="angle-small-down" style="width: 15px;">
+        </div>
+        <div id="Admin-menu-mobile"> 
+          <div class="Admin-menu-mobile poz-mobile">МИГАРЦИЯ</div>
+          <div class="Admin-menu-mobile poz-mobile">БЭКАПЫ</div>
+          <div class="Admin-menu-mobile poz-mobile">АУДИТ БЕЗОПАСНОСТИ</div>
+          <div class="Admin-menu-mobile poz-mobile">ОТПИМИЗАЦИЯ СКОРОСТИ</div>
+          <div class="Admin-menu-mobile poz-mobile">ПЕРЕЕЗД НА HTTPS</div>
+        </div>
+        <div class="poz-mobile" id="Prodvig-mobile">
+            ПРОДВИЖЕНИЕ
+        </div>
+        <div class="poz-mobile" id="Advertise-mobile">
+            РЕКЛАМА
+        </div>
+        <div id="About-mobile" class="poz-mobile">
+            О НАС <img src="img/angle-small-down.svg" alt="angle-small-down" style="width: 15px">  
+        </div>
+        <div id="About-menu-mobile">
+          <div class="About-menu-mobile poz-mobile">КОМАНДА</div>
+          <div class="About-menu-mobile poz-mobile">DRUPALGIVE</div>
+          <div class="About-menu-mobile poz-mobile">БЛОГ</div>
+          <div class="About-menu-mobile poz-mobile">КУРСЫ DRUPAL</div>
+        </div>
+        <div id="Projects-mobile" class="poz-mobile">
+            ПРОЕКТЫ
+        </div>
+        <div id="Contacts-mobile" class="poz-mobile">
+            КОНТАКТЫ
+        </div>
+      </div>
+
+      <div style="height: 50px;">
+        <div style="width: 50%;float:left;max-height: 100%;height: 100%;display: flex;justify-content: center;">
+          <img src="img/drupal-coder.svg" alt="drupal" style="max-width: 100%;">
+        </div>
+        <div style="width: 50%;display: flex;justify-content: center;height: 100%;">
+            <img id="click-mob-menu" src="img/mobile-menu.svg" style="width:25px; margin-left: calc(100% - 50px);" alt="menu">
+        </div>
+      </div>
+    </div>
   
   <header class="fullscreen-bg"> <!-- Шапка с меню и видео -->
 		<div class="overlay">
@@ -316,7 +362,20 @@
         </div>
     </div>
   
-  <!--МОБИЛЬНАЯ ВЕРСИЯ БЛОКА ВЫШЕ-->
+  <div class="exp-with-lap-mobile"> <!--Мобильная версия того же блока с картинкой ноутбука -->
+      
+      <div class="exp-with-lap-mobile-info"> 
+        <h1 style="color: white; width: 542px;font-size: 40px; max-width: fit-content;">Экспертиза в Drupal, опыт 14 лет!</h1>
+        <div style="max-width: 100%;">
+              <div class="exp_new" >Только системный подход - контроль версий, резервирование и тестирование!</div>
+              <div class="exp_new">Только Drupal сайты, не берём на поддержку сайты на других CMS!</div>
+              <div class="exp_new">Участвуем в разработке ядра Drupal и модулей на Drupal.org, разрабатываем <span style="color: rgb(254, 59, 29)">свои модули Drupal</span></div>
+              <div class="exp_new">Поддерживаем сайты на Drupal 5, 6, 7 и 8</div>
+        </div>
+      </div>
+      <img style="transform: translateY(15%); max-width: 50%;" src="img/laptop.png" alt="laptop">
+  </div>
+</div>
     
     	  <!--div ниже отвчает за отоброжение раздела "Тарифы" в компьютерной версии. В мобильной версии этот div не отображается-->
     <!--Этот div отображается в виде 3d слайдера, реализацию которого мы нашли в интернете-->
@@ -401,7 +460,91 @@
       </div>
     </div>
     
-    <!--МОБИЛЬНАЯ ВЕРСИЯ ТАРИФОВ-->
+    <!--div ниже отвчает за отоброжение раздела "Тарифы" в мобильной версии. В компьютерной версии этот div не отображается, он отображается толькок в мобильной-->
+    <!--Этот div отображается в виде списка, в отличие от компьютерного div, отображается в виде 3d слайдера-->
+    <div id="Rate_mob" style="padding-top: 30px;font-size: 14px; padding-bottom: 20px; margin-bottom: 40px; background: url(img/Снимок\ экрана\ \(37\).png) no-repeat right; background-size: 400%;">
+      <h1 style="text-align: center; font-size: 22px; margin-bottom: 40px;">Тарифы</h1>
+      <div class="ui-card_new" style="background: white; border: 1px solid rgb(205, 204, 204); border-radius: 2px; margin-bottom: 25px;"> <!--Этот div содержит в себе окно стартового тарифа-->
+        <div style="padding: 40px; padding-bottom: 0px; padding-left: 0px; font-size: 10px; border-bottom: 2px solid rgb(175, 164, 164); width: 75%; margin: auto; color: rgb(241, 77,52);">
+          <h1>Стартовый</h1>
+        </div>
+        <div class="List" style="width: calc(100% - 20px); margin:auto; padding-left: 20px; margin-top: 35px;">
+          <ul style="margin-left: 0px; padding-left: 0px; text-align: left; color:rgb(124, 123, 123); margin-bottom: 25px;">
+            <li><b>Консультации и работы по SEO</b></li>
+            <li><b>Услуги дизайнера</b></li>
+            <li><b>Неиспользованные<br>
+              <span style="padding-left: 26px;">оплаченные часы переносятся<br></span>
+              <span style="padding-left: 26px;">на следующий месяц</span></b>
+            </li>
+            <li><b>Предоплата от 6 000 рублей в<br>
+            <span style="padding-left: 26px;">месяц</span></b></li>
+          </ul>
+        </div>
+        <div style="display: flex; justify-content: center;">
+          <div style="border-radius: 5px;">
+            <button style="height: 40px; width: auto; background: white; color: rgb(241, 77,52); border: 1px solid rgb(241, 77,52);">СВЯЖИТЕСЬ С НАМИ!</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="ui-card_new" style="background: white; border: 1px solid rgb(205, 204, 204);  border-radius: 2px; margin-bottom: 25px;">   <!--Этот div содержит в себе окно бизнес тарифа-->
+        <div style="padding: 40px; padding-bottom: 0px; padding-left: 0px; font-size: 10px; border-bottom: 2px solid rgb(175, 164, 164); width: 75%; margin: auto; color: rgb(241, 77,52);">
+          <h1>Бизнес</h1>
+        </div>
+        <div class="List" style="width: calc(100% - 20px); margin:auto; padding-left: 20px; margin-top: 35px;">
+          <ul style="margin-left: 0px; padding-left: 0px; text-align: left; color:rgb(124, 123, 123); margin-bottom: 35px;">
+            <li><b>Консультации и работы по SEO</b></li>
+            <li><b>Услуги дизайнера</b></li>
+            <li><b>Высокое время реакции - до 2<br>
+             <span style="padding-left: 26px;">рабочих дней</span></b></li>
+            <li><b>Неиспользованные<br>
+              <span style="padding-left: 26px;">оплаченные часы не<br></span>
+              <span style="padding-left: 26px;">переносятся</span></b>
+            </li>
+            <li><b>Предоплата от 30 000 рублей в<br>
+            <span style="padding-left: 26px;">месяц</span></b></li>
+          </ul>
+        </div>
+        <div style="display: flex; justify-content: center;">
+          <div style="border-radius: 5px;">
+            <button style="height: 40px; width: auto; background: rgb(241, 77,52); color: white; border: 1px solid rgb(241, 77,52);">СВЯЖИТЕСЬ С НАМИ!</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="ui-card_new" style="background: white; border: 1px solid rgb(205, 204, 204);  border-radius: 2px; margin-bottom: 25px;">   <!--Этот div содержит в себе окно VIP тарифа-->
+        <div style="padding: 40px; padding-bottom: 0px; padding-left: 0px; font-size: 10px; border-bottom: 2px solid rgb(175, 164, 164); width: 75%; margin: auto; color: rgb(241, 77,52);">
+          <h1>VIP</h1>
+        </div>
+        <div class="List" style="width: calc(100% - 20px); margin-top: 35px; padding-left: 20px;">
+          <ul style="margin-left: 0px; padding-left: 0px; text-align: left; color:rgb(124, 123, 123); margin-bottom: 35px;">
+            <li><b>Консультации и работы по SEO</b></li>
+            <li><b>Услуги дизайнера</b></li>
+            <li><b>Максимальное время реакции<br>
+             <span style="padding-left: 26px;">- в день обращения</span></b></li>
+            <li><b>Неиспользованные<br>
+              <span style="padding-left: 26px;">оплаченные часы не<br></span>
+              <span style="padding-left: 26px;">переносятся </span></b>
+            </li>
+            <li><b>Предоплата от 270 000 рублей в<br>
+            <span style="padding-left: 26px;">месяц</span></b></li>
+          </ul>
+        </div>
+        <div style="display: flex; justify-content: center;">
+          <div style="border-radius: 5px;">
+            <button style="height: 40px; width: auto; background: white; color: rgb(241, 77,52); border: 1px solid rgb(241, 77,52);">СВЯЖИТЕСЬ С НАМИ!</button>
+          </div>
+        </div>
+      </div>
+
+      <div style="width: 90vw; margin:auto;">
+        <p style="text-align: center; font-size: 14px; color: rgb(133, 129, 129);">Вам не подходят наши тарифы? Оставьте заявку и мы
+        предложим вам индивидуальные условия!</p>
+        <p style="text-align: center; font-size: 14px; color: black;">
+          <ins>получить индивидуальные условия</ins>
+        </p>
+      </div>
+   </div>
     
     <div id="Razrab">   <!--Этот div содержит в себе реализацию блока с инофрмацией об времене реализации некоторых задач-->
       <h1>Наши профессиональные разработчики<br>
@@ -643,7 +786,82 @@
       </ol>
   </div>
     
-   <!--ПОДВАЛ-->
+   <footer id="footer">   <!--Подвал, в нем находится форма и контакты в верхней части и информация о проекте в нижней-->
+      <div id="footer_1">  <!--Верхняя часть подвала (форма и контакты)-->
+        <div id="Messege">     <!--В этом div находится та часть, которая будет отображаться в контактах-->
+            <div id="Label_1">    <!--Заголовок контактов-->
+                <h1>
+                Оставить заявку на <br>
+                поддержку сайта
+                </h1>
+            </div>
+            <div id="Label_2" style="color: rgb(121, 135,146);">    <!--Основной текст-->
+                Срочно нужна поддержка сайта? Ваша команда <br>не успевает
+                справиться самостоятельно или <br>предыдущий подрядчик не справился
+                с работой?<br> Тогда вам точно к нам! Просто оставьте заявку и <br>наш менеджер
+                с вами свяжится
+            </div>
+            <br><br><br>
+            <div>
+                <ul> <!--Список в котором будет распологаться номер телефона и почта-->
+                  <li>
+                    <p id="Number_project"> <img id="img_1" src="img/phone.svg" alt="phone"><b> 8 800 222-26-73</b></p>
+                  </li>
+                  <li>
+                    <p id="Emai_project"><img id="img_2" src="img/mail.svg" alt="email"> <ins>sales@drupal-coding.com</ins></p>
+                  </li>
+                </ul>
+            </div>
+        </div>
+        <!--В action располагается ссылка на которую будут отправлены данные из формы-->
+        <div> <!--Форма-->
+            <form id="Form_two" @submit="checkForm" action="https://formcarry.com/s/W9hnuH1Yv" method="POST" accept-charset="UTF-8">
+              <p id="mess_good_1" style="color: greenyellow; text-align: center;">Ваше сообщение удачно отправлено!</p>   <!--Эти три сообщения изначльно скрыты. В зависимости от ситуации может появлться одно из них-->
+              <p id="no_data" style="color: rgb(255, 0, 0); text-align: center;">Заполните все поля!</p>
+              <p id="mess_error_1" style="color: rgb(255, 0, 0); text-align: center;">Ваше сообщение не отправлено. Попробуйте ещё раз!</p>
+              <p style="margin-bottom: 0px; margin-top: 0px;">
+                <input id="form_1_name" type="text" name="name" v-model="name" placeholder="Ваше имя" maxlength="35" style="background-color: rgb(121, 135,146,0); color: white; border: 1px solid rgba(256, 256, 256, 0.3);"> <!--Это input для имени-->
+              </p>
+              <p style="margin-top: 0px; margin-bottom: 0px;">
+                <input id="number_polz_1" type="text" name="number" v-model="number" placeholder="Телефон" maxlength="15" style="background-color: rgb(121, 135,146,0); color: white; border: 1px solid rgba(256, 256, 256, 0.3);"> <!--Это input для номера телефона-->
+              </p>
+              <p style="margin-top: 0px; margin-bottom: 0px;">
+                <input id="email_polz_1" type="email" name="email" v-model="email" placeholder="E-mail" style="background-color: rgb(121, 135,146,0); color: white; border: 1px solid rgba(256, 256, 256, 0.3);"> <!--Это input для email-->
+              </p>
+              <p style="margin-top: 0px; margin-bottom: 0px;">
+                <textarea id="message_polz_1" name="message" v-model="message" placeholder="Ваш коментарий" style="background-color: rgb(121, 135,146,0); color: white; border: 1px solid rgba(256, 256, 256, 0.3); resize: none;"></textarea> <!--Это input для коментария-->
+              </p>
+              <div id="Check">  <!--В этом div будет располагаться чекбокс о согласия на отправку данных и надпись-->
+                    <div id="Checkbox">
+                      <input type="checkbox" v-model="checkbox" name="checkbox" style="height: 20px; width:20px;"> <!--Это чекбокс-->
+                    </div>
+                    <div>
+                      <label id="Label_3" style="color: rgb(121, 135,146);"> Отправляя заявку, я даю согласие на <a style="color: red;">обработку своих <br>персональных данных</a>.</label>  
+                    </div>
+              </div>
+              <p style="text-align: left;">
+                <input id="Lete_1" type="submit" value="Отправить" style="background-color: rgb(241, 77,52); color: white; margin-bottom: 7px; border: 1px solid rgba(256, 256, 256, 0.3); border-radius: 5px; border: 1px solid rgba(256, 256, 256, 0.3);">
+              </p>
+            </form>
+        </div>
+    </div>
+
+    <div id="Project_info"> <!--Нижняя часть подвала содержащая иформацию об проекте-->
+        <div>
+          <p id="Photo_conect"> 
+              <img src="img/facebook.svg" alt="facebook">
+              <img src="img/icons8-vk-в-круге.svg" alt="ВК"> 
+              <img src="img/telegram.svg" alt="Telegram"> 
+              <img src="img/youtube.svg" alt="YouTube">
+          </p>
+
+          <p id="Mes_project">
+            Проект ООО "Инитлаб", Краснодар, Россия. <br>
+            Drupal является зарегестрированной торговой маркой Dries Buytaert.
+          </p>
+        </div>
+    </div>
+    </footer>
     
     </body>
 </html>
