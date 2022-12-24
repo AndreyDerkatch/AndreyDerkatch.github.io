@@ -947,4 +947,522 @@ li{
         width: 90vw;
     }
 }
+@media (min-width: 560px) {
+    
+    #mess_good, #mess_error{
+        display: none;
+    }
 
+    #mess_good_1, #mess_error_1, #no_data{
+        display: none;
+        width: calc(30vw - 40px);
+    }
+
+    #overlay_btn {
+        z-index: 99;
+        position: fixed;
+        bottom: 15px;
+        left: 15px;
+        width: 200px;
+        height: 50px;
+        font-size: 25px;
+        border: solid 1px black;
+        background: rgb(75, 93, 252);
+        color: white;
+        font-size: 20px;
+    }
+    .FormOverlay {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 100;
+        position: fixed;
+        width: 0;
+        height: 0;
+        background: rgba(0, 0, 0, 0.755);
+        left: 110px;
+        bottom: 45px;
+    }
+    #form-overlay {
+        margin-top: 20px;
+        opacity: 0;
+        display: inline-block;
+        position: absolute;
+        z-index: 101;
+        width: 40vw;/*40vw*/
+        height: 70vh;/*70vh*/
+        background: rgb(28, 30, 32);
+        border:solid 1px rgb(38, 0, 255);
+        border-radius: 15px;
+    }
+    .exp-drupal {
+        width: 100%;
+        height: 1500px;
+        background: linear-gradient(to bottom right, rgb(4,6,19), rgb(29,31,43));
+        margin-bottom: 150px;
+    }
+
+    .pod-drupal-flex > h1 {
+        font-size: 50px;
+    }
+
+    #Rate_mob{
+        display: none;
+    }
+
+    .raz_text{
+        margin-left: 45px; 
+        margin-top: 10px;
+    }
+
+    #padding_elem_2, #padding_elem_1{
+        padding-left: 50px;
+    }
+
+    #Quality{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+    
+    .Quality_elem{
+        width: 300px;
+    }
+
+    #Razrab{
+        margin: auto;
+        width: 900px; 
+        height: 400px;
+    }
+
+    #Razrab h1{
+        padding-left: 35px;
+        margin-bottom: 40px;
+    }
+
+    #Team_flex{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    
+    #Team button{
+        height: 50px; 
+        width: 150px;
+    }
+
+    .Team_elem {
+        text-align: center;
+    }
+
+    .name_razrab{
+        font-size: 20px;
+    }
+
+    .Team_elem p{
+        font-size: 14px;
+    }
+
+    #Team_flex div img{
+        width: 230px;
+        height: 235px;
+    }
+
+    #Team{
+        height: 800px; 
+        margin-bottom: 200px;
+    }
+
+    #Team h1{
+        margin-bottom: 60px;
+    }
+
+    #Team_flex{
+        width: 900px;
+    }
+
+    .Team_elem{
+        width: 300px; 
+        margin-bottom: 35px;
+    }
+
+    .Team_elem div{
+        width: 230px;
+    }
+
+    #Case{
+        width: 860px; 
+        height: 700px; 
+        margin: auto; 
+        text-align: center; 
+        margin-bottom: 70px;
+    }
+
+    #Case_two_3 div{
+        padding-top: 15px;
+        padding-left: 25px; 
+        width: 100%; 
+        margin-top: 15px;
+        line-height: 15px;
+        font-size: 14px;
+    }
+
+    #Case_two{
+        width: 100%; 
+        height: 49%;
+        margin: auto;
+    }
+
+    #Case_two_1 img, #Case_two_2 img{
+        width: 100%; 
+        height: 100%;
+    }
+
+    #Case_two_3{
+        width: 100%;
+    }
+
+    #Case_one_2 img{
+        width: 100%; 
+        height:100%;
+    }
+
+    .br_2{
+        display: none;
+    }
+
+    #Case_one_1 div{
+        padding-top: 15px;
+        padding-left: 25px; 
+        width: 100%; 
+        margin-top: 15px;
+        line-height: 15px;
+        font-size: 14px;
+    }
+
+    #Case_one{
+        width: 100%; 
+        height: 49%; 
+        margin: auto; 
+        margin-bottom: 1%;
+    }
+
+    #Case h1{
+        margin-bottom: 45px;
+    }
+
+    #Case div {
+        margin-left: 5px;
+    }
+
+    #Case_one, #Case_two{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #Case_one_1 {
+        flex: 1;
+        border-radius: 5px 5px;
+    }
+
+    #Case_one_2 {
+        flex: 2;
+    }
+
+    #Case_two_3 img{
+        width: 100%;
+    }
+
+    #Case_two_1, #Case_two_2, #Case_two_3 {
+        margin: 0px;
+        padding: 0px;
+        flex: 1;
+    }
+
+    #Reviews {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 200px;
+        background: url(img/right-quote-sign.svg) no-repeat left top;
+        margin-bottom: 250px;
+    }
+
+    #Reviews h1 {
+        font-size: 40px;
+    }
+
+    #Prev_Next {
+        width: 250px;
+        margin-right: 8%;
+        margin-bottom: 50px;
+    }
+
+    #Prev_Next div {
+        margin: auto;
+        margin-top: 200px;
+    }
+
+    #_3 {
+        text-align: center;
+        padding-top: 80px;
+    }
+
+    #_1 {
+        width: 600px;
+        height: 27px;
+        box-shadow: 0 0 10px black;
+        background-color: rgb(255, 255, 255);
+        margin: auto;
+        margin-top: 203px;
+        border-radius: 5px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        position: absolute;
+        z-index: 4;
+        opacity: 0.2;
+        border: 1px solid black;
+    }
+
+    #_2 {
+        width: 700px;
+        height: 45px;
+        box-shadow: 0 0 10px black;
+        background-color: rgb(255, 255, 255);
+        margin: auto;
+        margin-top: 230px;
+        border-radius: 5px;
+        position: absolute;
+        z-index: 5;
+        opacity: 0.4;
+        border: 1px solid black;
+    }
+
+    #Com_1 {
+        text-align: center;
+        margin-top: 260px;
+        padding-top: 50px;
+        width: 800px;
+        height: 530px;
+        box-shadow: 0 0 50px rgb(69, 68, 68);
+        background: rgb(255, 255, 255);
+        position: absolute;
+        z-index: 6;
+        border-radius: 5px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #slider_three {
+        height: 500px;
+        width: 480px;
+        background: rgb(255, 255, 255);
+        margin-left: 8%;
+        margin-bottom: 50px;
+        border-right: 1px solid rgb(71, 71, 71);
+    }
+
+    #slider_three div {
+        font-size: 14px;
+    }
+
+    #Sliders_one_and_two {
+        height: 450px;
+    }
+
+    #Sliders_one_and_two p {
+        width: 700px;
+        margin: auto;
+        margin-bottom: 35px;
+    }
+
+    #slider_one,
+    #slider_two {
+        overflow: hidden;
+        height: 120px;
+    }
+
+    #slider_one img,
+    #slider_two img {
+        border: 1px solid black;
+    }
+
+    #slider_one {
+        margin-bottom: 5px;
+    }
+
+    .Photo {
+        width: 250px;
+        height: 118px;
+        border-radius: 5px;
+        margin-left: 4px;
+    }
+
+    .Photo2 {
+        width: 250px;
+        height: 118px;
+        border-radius: 5px;
+        margin-left: 4px;
+    }
+
+    #FAQ {
+        height: auto;
+        width: 100%;
+        margin: auto;
+    }
+
+    #FAQ h1 {
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    #FAQ ol {
+        margin: auto;
+        width: 700px;
+    }
+
+    #footer {
+        background: url(img/D-flying.svg) no-repeat top center, url(img/D-footer.svg) no-repeat bottom right, linear-gradient(to bottom right, rgb(4, 6, 19), rgb(29, 31, 43));
+        color: white;
+        width: 100%;
+        height: 85vh;
+        margin-top: 45px;
+        padding-top: 35px;
+        padding-bottom: 36px;
+        border-top: 1px solid #e5e5e5;
+    }
+
+    #footer_1 {
+        display: flex;
+        justify-content:center;
+        border-bottom: 1px solid white;
+        width: calc(100%-30px);
+        height: 70vh;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    input,
+    textarea,
+    button {
+        margin-bottom: 7px;
+        border: 1px solid rgba(256, 256, 256, 0.3);
+        border-radius: 5px;
+        line-height: 1.2;
+        height: 36px;
+    }
+
+    #Project_info {
+        display: flex;
+        justify-content: left;
+        width: calc(100%-30px);
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 50px;
+        padding-right: 15px;
+        font-size: 14px;
+    }
+
+    #Project_info img {
+        margin-right: 15px;
+        background-color: rgb(241, 77, 52);
+        height: 25px;
+        border-radius: 5px;
+    }
+
+    #Project_info div {
+        width: 80%;
+        margin-left: 12%;
+        margin-top: 1vh;
+    }
+
+    #Messege {
+        width: 40%;
+        margin-left: 10%;
+        margin-right: 5%;
+    }
+
+    #Label_1 {
+        margin-bottom: 20px;
+    }
+
+    #Label_2 {
+        padding-bottom: 45px;
+        font-size: small;
+    }
+
+    #Messege ul {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    #Messege li {
+        list-style-type: none;
+    }
+
+    #img_1 {
+        width: 20px;
+    }
+
+    #img_2 {
+        height: 15px;
+    }
+
+    #Number_project {
+        font-size: 150%;
+    }
+
+    #Form_two {
+        width: 38%;
+        margin-top: 10px;
+    }
+
+    #Lete_1  {
+        width: 30vw; 
+        height: 44px;
+        font-size: 17px;
+        margin-bottom: 45px;
+    }
+
+    #form_1_name, #number_polz_1, #email_polz_1 {
+        width: calc(30vw - 40px);
+        font-size: 17px;
+        padding: 5px 20px;
+    }
+
+    #Form_two textarea {
+        width: calc(30vw - 40px);
+        resize: none;
+        height: 150px;
+        font-size: 18px;
+        padding: 15px 20px;
+    }
+
+    #Form_two label {
+        width: 38%;
+        font-size: 90%;
+    }
+
+    #Form_two button {
+        width: 30vw;
+        height: 45px;
+        margin-top: 7px;
+    }
+
+    #Check {
+        width: 30vw;
+    }
+
+    #Check br {
+        display: none;
+    }
+
+    #Checkbox {
+        margin-right: 10px;
+        float: left;
+    }
+}
