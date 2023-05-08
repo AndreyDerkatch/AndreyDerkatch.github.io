@@ -1,0 +1,63 @@
+ 
+    label { 
+        margin-left:15px; 
+      } 
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        font-size: 18px;
+        }
+      input.submit {
+        color: white;background-color: #ffd300;border-radius: 15px;width: fit-content;height: 35px;font-size: 20px;
+      }
+      .err {
+        border: 2px solid red;
+      }
+      a.redir {
+        text-decoration: none;
+        background-color: #ffd300;
+        border-radius: 15px;
+        width: fit-content;
+        border: 2px solid black;
+        color: WHITE;
+        width: 100px;
+        text-align: center;
+        font-size: 25px;
+      }
+      table {
+        margin-top: 20px;
+        width: 100%;
+        margin-bottom: 20px;
+        border: 5px solid #fff;
+        border-top: 5px solid #fff;
+        border-bottom: 3px solid #fff;
+        border-collapse: collapse; 
+        outline: 3px solid #ffd300;
+        font-size: 15px;
+        background: #fff!important;
+      }
+      table th {
+        text-align: center;
+        font-weight: bold;
+        padding: 7px;
+        background: #ffd300;
+        font-size: 15px;
+        border-top: 3px solid #fff;
+        border-left: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+        border-bottom: 3px solid #ffd300;
+      }
+      table td {
+        padding: 7px;
+        border-left: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+        border-top: 3px solid #fff;
+        border-bottom: 3px solid #fff;
+        font-size: 15px;
+      }
+      table tbody tr:nth-child(even){
+        background: #f8f8f8!important;
+      }
+    
